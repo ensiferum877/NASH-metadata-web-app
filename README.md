@@ -11,17 +11,24 @@ To showcase the transformative power of applying GPT-4 to biological data, I've 
 📥 Data Acquisition and Preprocessing:
 
 **Fetching Data**: Utilizing the GEOparse Python library, data relevant to NASH experiments was retrieved from the GEO database.
+
 **Data Cleaning**: Leveraging the capabilities of GPT-4, combined with Langchain, the initially unstructured metadata was transformed into a structured format. This meticulous cleaning process was vital for extracting meaningful insights from the data.
 
 ## 🖥️ Dashboard Features
 
 **🔍Dynamic Filtering**: Users can filter visualizations based on parameters like country, assay, biomaterial category, and year, allowing for tailored insights.
-Visualizations:
+
+### Visualizations:
+
 **☁️Word Cloud**: Offers a visual representation of frequently mentioned terms in the dataset, providing quick insights into prevalent themes.
+
 **📊Bar and Box Charts**: Displays distributions and key metrics, giving users a quantitative overview of the data.
+
 **🥧 Pie Charts**: Breaks down distributions for categories like assay, biomaterial, and source tissue.
+
 **🌍Choropleth Map**: An animated geographical representation showing the number of studies by country over the years. This visualization provides a global view of NASH research trends.
 
 # Acknowledgments 
+
 This project relies on  GEOparse and biopython for data acquisition.
 The cleaning and structuring of data were made possible by OpenAI's GPT-4 models and their integration with Langchain.
