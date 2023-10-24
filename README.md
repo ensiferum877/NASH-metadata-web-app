@@ -6,7 +6,9 @@ To overcome this challenge, I queried data from GEO. Following this, a rigorous 
 
 To showcase the transformative power of applying GPT-4 to biological data, I've developed a Streamlit dashboard that illustrate the experimental metadata pertinent Non-Alcoholic SteatoHepatitis (NASH).Equipped with this meticulously cleaned and organized metadata, the dashboard unfurls an array of interactive visualizations. Users can immerse themselves in rich insights and detect prevailing trends in the data. With features ranging from dynamic filters to a medley of visual representations such as word clouds, bar charts, and choropleth maps, this dashboard presents an exhaustive panorama of the NASH experimental domain.
 
-## 🧬 Repository Contents
+The application can be accessed trough the following like: https://ensiferum877-nash-metadata-web-app-app-yotuur.streamlit.app
+
+## 🧬 Dataset generation
 
 📥 Data Acquisition and Preprocessing:
 
