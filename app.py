@@ -160,7 +160,7 @@ wc = WordCloud(
     max_words=100
 ).generate(text_combined)
 
-st.header('Keyword Landscape: A cloud representation of experimental aims')
+st.title('Keyword Landscape: A cloud representation of experimental aims')
 # Use the axis to create the visualization
 ax.imshow(wc, interpolation='bilinear')
 ax.axis('off')
@@ -332,7 +332,7 @@ with col3:
 st.markdown("<hr style='height:2px;border-width:0;color:gray;background-color:gray'>", unsafe_allow_html=True)
 
 ## STEP 5: WORLD MAP
-st.header("Number of Studies by Country Over Years")
+st.title("Number of Studies by Country Over Years")
 
 # Aggregate the number of studies by country and year
 aggregated_data = filtered_df.groupby(['contact_country', 'year']).size().reset_index(name='num_studies')
