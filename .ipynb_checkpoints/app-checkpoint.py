@@ -332,7 +332,6 @@ with col3:
 st.markdown("<hr style='height:2px;border-width:0;color:gray;background-color:gray'>", unsafe_allow_html=True)
 
 ## STEP 5: WORLD MAP
-st.header("Number of Studies by Country Over Years")
 
 # Aggregate the number of studies by country and year
 aggregated_data = filtered_df.groupby(['contact_country', 'year']).size().reset_index(name='num_studies')
@@ -346,7 +345,7 @@ fig = px.choropleth(
     color="num_studies",
     hover_name="contact_country",
     animation_frame="year",
-    title="",
+    title="Number of Studies by Country Over Years",
     color_continuous_scale=px.colors.sequential.Plasma,
     projection="natural earth")
 
